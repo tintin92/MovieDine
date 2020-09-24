@@ -18,5 +18,12 @@
             line-height:50px;
             padding-left:9px;
         }
+        .body {
+            background-color: crimson;
+        }
+        .img {
+            padding-left: 30px;
+            margin-left: 10px;
+        }
 
 
