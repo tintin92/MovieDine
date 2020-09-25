@@ -21,6 +21,11 @@
         .body {
             background-color: crimson;
         }
+        .channel-container{
+            background-color: dodgerblue;
+            max-width: 510px;
+            max-height: 310px;
+        }
         .img {
             padding-left: 30px;
             margin-left: 10px;
