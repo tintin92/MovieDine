@@ -22,12 +22,15 @@ $(document).ready(function () {
         event.preventDefault();
 
     var citySearch = $("button").val().trim();
-
-function search(zipCode) {
-
+    console.log(citySearch);
+    search(citySearch);
+    }
+    )
+ 
 $.ajax(settings).done(function(response) {
     console.log(response);
-    
+
+    localStorage.setItem("storedSearch", response);
 
 for (i = 0; i < 10; i++) {
 
@@ -60,6 +63,5 @@ for (i = 0; i < 10; i++) {
 
     zipCodeCardDiv.append(zipCodeDiv);
 
-
 }
-})}})})
+})}})
