@@ -17,6 +17,12 @@ var settings = {
 }
 $(document).ready(function () {
 
+//Set onclick actions for search
+    $("button").on("click", function(event) {
+        event.preventDefault();
+
+    var citySearch = $("button").val().trim();
+
 function search(zipCode) {
 
 $.ajax(settings).done(function(response) {
@@ -56,4 +62,4 @@ for (i = 0; i < 10; i++) {
 
 
 }
-})}});
+})}})})
