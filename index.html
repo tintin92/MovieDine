@@ -8,66 +8,57 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/style.css">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="header">
         <h1 class="logo">MovieDine</h1>
-        <form>
-            <input type="text" name="movieSearch"
-                placeholder="Hello! What movie or show would you like to stream?" size="100"
-                style="color: rgb(3, 3, 3);">
-            <i class="fas fa-search"></i>
+        <form id="MovieSearchBar">
+            <button type="submit"></button>
+            <input type="text" placeholder="Hello! What movie or show would you like to stream?">
+            <i class="fas fa-search"></i></input>
         </form>
     </div>
     <br>
-    <h5>Trending Searches</h5>
-    <div class="row">
-        <div class="col s8">
-            <div class="card sticky-action" style="width: 800px;height: 360px;">
-                <img class="responsive-img" src="assets/images/Batman-Dark-Knight-image.jpeg"
-                    style="width: 195px;height: 355px;">
-                <img class="responsive-img" src="assets/images/Mulan-poster-image.jpeg"
-                    style="width: 195px;height: 355px;">
-                <img class="responsive-img" src="assets/images/Joker-poster-image.jpeg"
-                    style="width: 195px;height: 355px;">
-                <img class="responsive-img" src="assets/images/Trolls-image.jpeg" style="width: 195px;height: 355px;">
+    <main>
+        <h5>Trending Searches</h5>
+        <div class="row">
+            <div class="col s8">
+                <div class="card sticky-action">
+                    <img class="responsive-img poster" src="assets/images/Batman-Dark-Knight-image.jpeg">
+                    <img class="responsive-img poster" src="assets/images/Mulan-poster-image.jpeg">
+                    <img class="responsive-img poster" src="assets/images/Joker-poster-image.jpeg">
+                    <img class="responsive-img poster" src="assets/images/Trolls-image.jpeg">
+                </div>
             </div>
+            <section id="channel-Section">
+                <div class="col s4">
+                    <aside class="Channel-Aside">
+                        <div class="card sticky-action2">
+                            <a target="_blank" href="https://netflix.com"><img class="streamChannel""
+                                    src="assets/images/Netflix-Image.jpeg"></img></a>
+                            <a target="_blank" href="https://www.amazon.com/ref=nav_logo"><img class="streamChannel"
+                                    src="assets/images/Amazon-prime.jpeg"></img></a>
+                            <a target="_blank" href="https://disneyplus.com"><img class="streamChannel"
+                                    src="assets/images/Disney-Plus image.jpeg"></img></a>
+                            <a target="_blank" href="https://hulu.com"><img class="streamChannel"
+                                    src="assets/images/Hulu-image.jpeg"></img></a>
+                    </aside>
+            </section>
         </div>
-        <div class="col s4">
-            <aside class="Channel Aside" style="color: cadetblue;width: 400px;height: 800px;">
-                <div class="card sticky-action" style="width: 340px;height: 740px;">
-                    <a target="_blank" href="https://netflix.com"><img src="assets/images/Netflix-Image.jpeg"
-                            style="width: 335px;height: 180px;"></img></a>
-                    <a target="_blank" href="https://https://https://www.amazon.com/ref=nav_logo"><img
-                            src="assets/images/Amazon-prime.jpeg" style="width: 335px;height: 180px;"></img></a>
-                    <a target="_blank" href="https://disneyplus.com"><img src="assets/images/Disney-Plus image.jpeg"
-                            style="width: 335px;height: 180px;"></img></a>
-                    <a target="_blank" href="https://hulu.com"><img src="assets/images/Hulu-image.jpeg"
-                            style="width: 335px;height: 180px;"></img></a>
-            </aside>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-
-
-
-
-
-
-
-
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-    <script src="assets/script.js"></script>
-</body>
-
-</html>
+        </div>
+        </div>
+        </div>
+        </div>
+      </main>
+  <!-- Compiled and minified JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <integrity="sha256-9 /aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=" anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"> 
+        <script src="assets/script.js">
+        </script>
+        </script>
+  </body>
+</html

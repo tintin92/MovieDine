@@ -1,23 +1,31 @@
         .header{
             width:100%;
-            height:60px;
-            background-color:#E6E6FA;
-            color: bisque;
+            height:150px;
+            background-color:#9393ce;
+            color: rgb(247, 243, 238);
         }
-         .body {
+        .movieSearchBar {
+            max-width: 100%;
+            background-color: mediumpurple;
+            height: 90px;
+            text-align: center;
+            margin-left: autogit;
+        }
+         fas fa-search {
+
+    }
+         body {
             margin:0px;
             padding:0px;
             background-color: rgb(8, 8, 8 );
             color: plum;
 
         }
-        .h1 {
+         h1 {
             font-family: 'Times New Roman', Times, serifori;
-        }
-        .logo{
             color:#0a0311;
-            font-size:25px;
-            font-family:verdana;
+            font-size:50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align:left;
             margin-top:0px;
             float:left;
@@ -30,39 +38,51 @@
             float:right;line-height:52px;
             padding-right:14px;
         }
-        .main {
-            background-color: rgb(57, 104, 100);
+        main {
+            background-color: rgb(105, 7, 7);
+        }
+        h5 {
+            color: white;
         }
         .input {
             color: black;
         }
-        .card {
+        card sticky-action {
             width: 800px;
             height: 360px;
         }
-        .img {
-
+        .poster {
+            width: 195px;height: 355px;
         }
-        .img {
-
-        }
-        .img {
-
-        }
-        .img {
-
-        }
-        .div {
-
-        }
+    
         .channel-container{
             background-color: rgb(117, 173, 230);
             max-width: 510px;
             max-height: 310px;
         }
-        .img {
+        .movieSearchBar {
+            size: 100px;
+            color:  rgb(3, 3, 3);
+            margin-right: auto;
+
+        }
+
+         Channel-Aside  {
+            color: cadetblue;
+            width: 400px;
+            height: 800px;
+         }
+        .streamChannel {
+            width: 335px;
+            height: 180px;
+        }
+        img {
             padding-left: 30px;
             margin-left: 10px;
+        }
+        card sticky-action2 {
+            width: 340px;
+            height: 740px;
         }
 
 
