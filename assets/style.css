@@ -1,16 +1,48 @@
         .header{
             width:100%;
-            height:60px;
-            background-color:#E6E6FA;
+            height:80px;
+            background-color:#9393ce;
+            color: rgb(247, 243, 238);
+            text-align: justify;
         }
-        body{
+        #searchButton, #searchInput
+        {
+            float: right;
+            display: block;
+        }
+        #movieSearchForm
+        {
+            text-align: right;
+            width: 33%;
+            margin: auto;
+        }
+        .movieSearchBar {
+            max-width: 100%;
+            background-color: mediumpurple;
+            height: 70px;
+            text-align: center;
+            margin-left: autogit;
+            
+        }
+         .fas {
+             display: none;
+         }
+         .fa-search {
+             display: none;
+
+    }
+         body {
             margin:0px;
             padding:0px;
+            background-color: rgb(8, 8, 8 );
+           
+
         }
-        .logo{
+         h1 {
+            font-family: 'Times New Roman', Times, serifori;
             color:#0a0311;
-            font-size:25px;
-            font-family:verdana;
+            font-size:50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align:left;
             margin-top:0px;
             float:left;
@@ -18,12 +50,56 @@
             line-height:50px;
             padding-left:9px;
         }
-        .body {
-            background-color: crimson;
+        form {
+            color: blue;
+            float: inline-end ;line-height:52px;
+            padding-right:14px;
         }
-        .img {
+        main {
+            background-color: rgb(105, 7, 7);
+        }
+        h5 {
+            color: white;
+        }
+        .input {
+            color: black;
+        }
+        card-sticky-action-1 {
+            width: 800px;
+            height: 360px;
+        }
+        .poster {
+            width: 195px;height: 355px;
+        }
+    
+        .channel-container{
+            background-color: rgb(117, 173, 230);
+            max-width: 510px;
+            max-height: 310px;
+        }
+        .movieSearchBar {
+            size: 100px;
+            color:  rgb(3, 3, 3);
+            margin-right: auto;
+
+        }
+
+         Channel-Aside  {
+            color: cadetblue;
+            width: 400px;
+            height: 800px;
+         }
+        .streamChannel {
+            width: 335px;
+            height: 180px;
+        }
+        img {
             padding-left: 30px;
             margin-left: 10px;
+        }
+        card-sticky-action-2 {
+            width: 340px;
+            height: 740px;
         }
 
 
