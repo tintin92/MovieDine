@@ -3,9 +3,11 @@
             height:60px;
             background-color:#E6E6FA;
         }
-        body{
+        .body {
             margin:0px;
             padding:0px;
+            background-color: lightblue;
+
         }
         .logo{
             color:#0a0311;
@@ -18,11 +20,11 @@
             line-height:50px;
             padding-left:9px;
         }
-        .body {
-            background-color: crimson;
+        .main {
+            background-color: rgb(57, 104, 100);
         }
         .channel-container{
-            background-color: dodgerblue;
+            background-color: rgb(117, 173, 230);
             max-width: 510px;
             max-height: 310px;
         }
