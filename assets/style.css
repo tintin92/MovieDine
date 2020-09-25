@@ -1,24 +1,41 @@
         .header{
             width:100%;
-            height:150px;
+            height:80px;
             background-color:#9393ce;
             color: rgb(247, 243, 238);
+            text-align: justify;
+        }
+        #searchButton, #searchInput
+        {
+            float: right;
+            display: block;
+        }
+        #movieSearchForm
+        {
+            text-align: right;
+            width: 33%;
+            margin: auto;
         }
         .movieSearchBar {
             max-width: 100%;
             background-color: mediumpurple;
-            height: 90px;
+            height: 70px;
             text-align: center;
             margin-left: autogit;
+            
         }
-         fas fa-search {
+         .fas {
+             display: none;
+         }
+         .fa-search {
+             display: none;
 
     }
          body {
             margin:0px;
             padding:0px;
             background-color: rgb(8, 8, 8 );
-            color: plum;
+           
 
         }
          h1 {
@@ -35,7 +52,7 @@
         }
         form {
             color: blue;
-            float:right;line-height:52px;
+            float: inline-end ;line-height:52px;
             padding-right:14px;
         }
         main {
@@ -47,7 +64,7 @@
         .input {
             color: black;
         }
-        card sticky-action {
+        card-sticky-action-1 {
             width: 800px;
             height: 360px;
         }
@@ -80,7 +97,7 @@
             padding-left: 30px;
             margin-left: 10px;
         }
-        card sticky-action2 {
+        card-sticky-action-2 {
             width: 340px;
             height: 740px;
         }
