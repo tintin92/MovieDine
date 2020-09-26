@@ -15,51 +15,83 @@
   <!--Add fonts for all titles, headers, and text...Gotham font perhaps-->
 
   <body>
-    <div class="header">
-      <h1 class="logo">MovieDine</h1>
-      <form id="movieSearchForm" class="row">
-        <div class="input-field col s12">
-          <!--check if in correct column -->
-          <button class="btn col s1" id="searchButton" type="submit" name="action"><i class="fa fa-search"
-              aria-hidden="true"></i></button>
-          <input id="searchInput" type="text" name="searchbar" placeholder="What movie would you like to see?..."
-            class="validate col s11">
-          <!--check if centered correctly-->
-        </div>
-      </form>
+    <div class="header"
+        <h1 class="logo"><i class="fas fa-ticket-alt"></i>MovieDine</h1>
+        <form id="movieSearchForm" class="row">
+            <!-- <div class="input-field col s12"> -->
+            <button class="btn col s1" id="searchButton" type="submit" name="action"><i class="fa fa-search"
+                    aria-hidden="true"></i></button>
+            <input id="searchInput" type="text" name="searchbar" placeholder="What movie would you like to see?..."
+                class="validate col s11">
+            <!-- </div> -->
+        </form>
     </div>
     <br>
     <main>
-      <h5>Trending Searches</h5>
-      <div class="row">
-        <div class="col s8">
-          <div class="card-sticky-action-1">
-            <img class="responsive-img poster" src="assets/images/Batman-Dark-Knight-image.jpeg">
-            <img class="responsive-img poster" src="assets/images/Mulan-poster-image.jpeg">
-            <img class="responsive-img poster" src="assets/images/Joker-poster-image.jpeg">
-            <img class="responsive-img poster" src="assets/images/Trolls-image.jpeg">
-          </div>
-        </div>
-        <!-- <section id="channel-Section"> -->
-        <div class="col s4">
-          <aside class="Channel-Aside">
-            <div class="card-sticky-action-2">
-              <a target="_blank" href="https://netflix.com"><img class="streamChannel"
-                  src=" assets/images/Netflix-Image.jpeg"></img></a>
-              <a target="_blank" href="https://www.amazon.com/ref=nav_logo"><img class="streamChannel"
-                  src="assets/images/Amazon-prime.jpeg"></img></a>
-              <a target="_blank" href="https://disneyplus.com"><img class="streamChannel"
-                  src="assets/images/Disney-Plus image.jpeg"></img></a>
-              <a target="_blank" href="https://hulu.com"><img class="streamChannel"
-                  src="assets/images/Hulu-image.jpeg"></img></a>
+        <h5>Previous Searches</h5>
+        <div class="row">
+            <div class="col s2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/Batman-Dark-Knight-image.jpeg">
+                        <span class="card-title"></span>
+                        <div class="card-content">
+                            <p>Christian Bale is the Dark Knight. Heath ledger makes an unforgettable turns in his role
+                                of Joker.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </aside>
+            <div class="col s2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/Mulan-poster-image.jpeg">
+                        <span class="card-title"></span>
+                        <div class="card-content">
+                            <p>Disney's latest animated feature. iainasf;na;kgn ina;fkln;ewklnf;ksdn kjasnfyr uhefb
+                                uuufub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s2">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/images/Joker-poster-image.jpeg">
+                        <span class=""></span>
+                        <div class="card-content">
+                            <p>Joaquin Phoenix triumphs in his portrayal of the origins of the joker huhfweifuh
+                                fbuweifh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col s6">
+                <div class="channelContainer">
+                    <section id="channelSection">
+                        <a target="_blank" href="https://netflix.com"><img class="streamChannel"
+                            src=" assets/images/Netflix-Image.jpeg"></img></a>
+                        <a target="_blank" href="https://www.amazon.com/ref=nav_logo"><img class="streamChannel"
+                                src="assets/images/Amazon-prime.jpeg"></img></a>
+                        <a target="_blank" href="https://disneyplus.com"><img class="streamChannel"
+                                src="assets/images/Disney-Plus image.jpeg"></img></a>
+                        <a target="_blank" href="https://hulu.com"><img class="streamChannel"
+                                src="assets/images/Hulu-image.jpeg"></img></a>
+                                <a target="_blank" href="https://hbomax.com"><img class="streamChannel"
+                                    src="assets/images/HBOmax.jpeg"></img></a>
+                                    <a target="_blank" href="https://Appletv.com"><img class="streamChannel"
+                                        src="assets/images/AppleTVimage.jpeg"></img></a> 
+                            </section>
+                        </section>
+                    </section>
+                </div>
+            </div>
         </div>
-      </div>
+
     </main>
 
 
-    <!--Food Search-->
+<!--Food Search-->
 
     <section id="searchFood" class="section section-search teal darken-1 white-text center scrollspy">
       <div class="container">
@@ -158,26 +190,6 @@
         ex! Ut, labore qui?</p>
     </div>
 
-
-
-
-
-    <!-- Section: Slider -->
-    <section class="slider">
-
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Search for food section section id="searchFood"-->
 
     <!-- Footer -->
@@ -210,5 +222,6 @@
     <script src="assets/script.js"></script>
 
   </body>
+
 
 </html>
