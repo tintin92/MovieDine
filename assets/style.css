@@ -1,7 +1,7 @@
         .header{
             width:100%;
             height:80px;
-            background-color:#9393ce;
+            background-color:#1919d3;
             color: rgb(247, 243, 238);
             text-align: justify;
         }
@@ -34,13 +34,13 @@
          body {
             margin:0px;
             padding:0px;
-            background-color: rgb(8, 8, 8 );
+            background-color: rgb(24, 135, 226);
            
 
         }
          h1 {
             font-family: 'Times New Roman', Times, serifori;
-            color:#0a0311;
+            color:#fbfafd;
             font-size:50px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-align:left;
@@ -56,7 +56,7 @@
             padding-right:14px;
         }
         main {
-            background-color: rgb(105, 7, 7);
+            background-color: rgb(114, 184, 231);
         }
         h5 {
             color: white;
@@ -64,42 +64,51 @@
         .input {
             color: black;
         }
-        card-sticky-action-1 {
-            width: 800px;
-            height: 360px;
-        }
-        .poster {
-            width: 195px;height: 355px;
-        }
     
-        .channel-container{
-            background-color: rgb(117, 173, 230);
-            max-width: 510px;
-            max-height: 310px;
+        .channelContainer{
+            background-color: #1919d3;
+            max-width: 660px;
+            max-height: 1000px;
+            padding-right: 200px;
+            margin-right: 10px;
+            align-content: space-between;
+            border: black;
         }
         .movieSearchBar {
             size: 100px;
-            color:  rgb(3, 3, 3);
+            color:  rgb(235, 219, 219);
             margin-right: auto;
 
         }
+         .channelSection {
+             background-color: mintcream;
+             justify-content: flex-end;
 
-         Channel-Aside  {
-            color: cadetblue;
-            width: 400px;
-            height: 800px;
          }
+         /* .channelAside  {
+             justify-content: flex-end;
+            color: cadetblue;
+            width: 40px;
+            height: 80px;
+         } */
         .streamChannel {
-            width: 335px;
-            height: 180px;
+            font-stretch: normal;
+            width: 220px;
+            height: 100px;  
+            padding-left: 20px;
+        
         }
-        img {
-            padding-left: 30px;
-            margin-left: 10px;
-        }
-        card-sticky-action-2 {
-            width: 340px;
-            height: 740px;
-        }
+      
+         .card {
+             background-color: #4d8fad;
+            justify-content: flex-end;
+            width:  100%;
+            height: 300%;
+         
+        } 
 
+       .card-image {
+           width: 100%;
+           height: 170%;   
+       }
 
