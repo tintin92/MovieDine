@@ -66,9 +66,10 @@
         }
     
         .channelContainer{
-            background-color: rgb(110, 19, 185);
-            max-width: 150px;
-            max-height: 50px;
+            background-color: rgb(5, 5, 5);
+            max-width: 70%;
+            max-height: 30%;
+            padding-right: 20px;
         }
         .movieSearchBar {
             size: 100px;
@@ -90,11 +91,14 @@
         .streamChannel {
             align-items: right;
             justify-content: flex-end;
-            width: 50%;
-            height: 50%;
+            width: 100%;
+            padding-left: 20px;
+            
+            
         }
       
          .card {
+             background-color: rgb(188, 235, 231);
             justify-content: flex-end;
             width:  90%;
             height: 80%;
