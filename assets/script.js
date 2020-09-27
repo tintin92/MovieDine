@@ -16,9 +16,6 @@ var backArrow = $("<i>");
 backArrow.addClass("fas fa-arrow-left");
 backButtonEl.append(backArrow);
  
-// With the search OTT info
-var imdbID = ""; // Store all the imdbID's into the search results array
- 
 $(document).ready(function ()
 {
     movieSearchButton.on("click", function (event)
