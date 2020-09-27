@@ -1,113 +1,174 @@
-.header {
-    width:100%;
-    height:80px;
-    background-color:#1919d3;
-    color: rgb(247, 243, 238);
-    text-align: justify;
-}
-#searchButton, #searchInput
-{
-    float: right;
-    display: block;
-}
-#movieSearchForm
-{
-    text-align: right;
-    width: 33%;
-    margin: auto;
-}
-.movieSearchBar {
-    max-width: 100%;
-    background-color: mediumpurple;
-    height: 70px;
-    text-align: center;
-    margin-left: autogit;
+
+        .header{
+            width:100%;
+            height:80px;
+            background-color:#1919d3;
+            color: rgb(247, 243, 238);
+            text-align: justify;
+        }
+        #searchButton, #searchInput
+        {
+            float: right;
+            display: block;
+        }
+        #movieSearchForm
+        {
+            text-align: right;
+            width: 33%;
+            margin: auto;
+        }
+        .movieSearchBar {
+            max-width: 100%;
+            background-color: mediumpurple;
+            height: 70px;
+            text-align: center;
+            margin-left: autogit;
+            
+        }
+         .fas {
+             display: none;
+         }
+         .fa-search {
+             display: none;
+
+    }
+         body {
+            margin:0px;
+            padding:0px;
+            background-color: rgb(24, 135, 226);
+           
+
+        }
+         h1 {
+            font-family: 'Times New Roman', Times, serifori;
+            color:#fbfafd;
+            font-size:50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align:left;
+            margin-top:0px;
+            float:left;
+            margin:0px;
+            line-height:50px;
+            padding-left:9px;
+        }
+        form {
+            color: blue;
+            float: inline-end ;line-height:52px;
+            padding-right:14px;
+        }
+        main {
+            background-color: rgb(114, 184, 231);
+        }
+        h4 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h5 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .input {
+            color: black;
+        }
     
-}
- .fas {
-     display: none;
- }
- .fa-search {
-     display: none;
+        .channelContainer{
+            background-color: #1919d3;
+            width: 220px;
+            height: 500px;
+            padding-top: 5%;
+            padding-left: 20%;
+            padding-right: 50%;
+            margin-right: 50px;
+            align-content: right;
+            border: black;
+        }
+        /* .movieSearchBar {
+            size: 100px;
+            color:  rgb(235, 219, 219);
+            margin-right: auto;
 
-}
- body {
-    margin:0px;
-    padding:0px;
-    background-color: rgb(24, 135, 226);
-   
+        } */
+         /* .channelSection {
 
-}
- h1 {
-    font-family: 'Times New Roman', Times, serifori;
-    color:#fbfafd;
-    font-size:50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align:left;
-    margin-top:0px;
-    float:left;
-    margin:0px;
-    line-height:50px;
-    padding-left:9px;
-}
-form {
-    color: blue;
-    float: inline-end ;line-height:52px;
-    padding-right:14px;
-}
-main {
-    background-color: rgb(114, 184, 231);
-}
-h5 {
-    color: white;
-}
-.input {
-    color: black;
-}
+         } */
+         /* .channelAside  {
+             justify-content: flex-end;
+            color: cadetblue;
+            width: 40px;
+            height: 80px;
+         } */
+        .stream-channel-one {
+            width: 220px;
+            height: 120px; 
+             
+            
+        }
+        .stream-channel-two {
+            width: 220px;
+            height: 120px;  
+            
+        }
+        .stream-channel-three {
+            width: 220px;
+            height: 120px;  
+            float: left;       
+        }
+        .stream-channel-four {
+            width: 220px;
+            height: 120px;  
+            margin-right: 50px;
+            float: left;
+            
+        }
+        /* .stream-channel-five {
+            width: 170px;
+            height: 60px;  
+            
+        }
+        .stream-channel-six {
+            width: 170px;
+            height: 60px;  
+            
+        } */
+      
+         .card {
+             background-color: #4d8fad;
+            justify-content: flex-end;
+            width:  100%;
+            height: 300%;   
+        } 
 
-.channelContainer{
-    background-color: #1919d3;
-    max-width: 660px;
-    max-height: 1000px;
-    padding-right: 200px;
-    margin-right: 10px;
-    align-content: space-between;
-    border: black;
-}
-.movieSearchBar {
-    size: 100px;
-    color:  rgb(235, 219, 219);
-    margin-right: auto;
-
-}
- .channelSection {
-     background-color: mintcream;
-     justify-content: flex-end;
-
- }
- /* .channelAside  {
-     justify-content: flex-end;
-    color: cadetblue;
-    width: 40px;
-    height: 80px;
- } */
-.streamChannel {
-    font-stretch: normal;
-    width: 220px;
-    height: 100px;  
-    padding-left: 20px;
-
-}
-
- .card {
-     background-color: #4d8fad;
-    justify-content: flex-end;
-    width:  100%;
-    height: 300%;
- 
-} 
-
-.card-image {
-   width: 100%;
-   height: 170%;   
-}
+       .card-image {
+           width: 100%;
+           height: 170%;   
+       }
+       .card-one {
+           width: 170px;
+           height: 100px;
+       }
+       .card-two {
+          width: 170px;
+          height: 100px;
+       }
+       .card-three {
+        width: 170px;
+        height: 100px;
+       }
+       .card-four {
+        width: 170px;
+        height: 100px;
+      align-content: left;
+    }
+       /* .card-five {
+        width: 170px;
+        height: 90px;
+       }
+       .card-six {
+        width: 170px;
+        height: 90px;
+        position: sticky;
+       } */
+       .card1 {
+           width: 250px;
+           color: #000;
+      }
