@@ -12,33 +12,29 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
-
 <body>
     <div class="header">
         <h1 class="logo"><i class="fas fa-ticket-alt"></i>MovieDine</h1>
         <form id="movieSearchForm" class="row">
             <!-- <div class="input-field col s12"> -->
             <button class="btn col s1" id="searchButton" type="submit" name="action"><i class="fa fa-search"
-                aria-hidden="true"></i></button>
+                    aria-hidden="true"></i></button>
             <input id="searchInput" type="text" name="searchbar" placeholder="What movie would you like to see?..."
                 class="validate col s11">
             <!-- </div> -->
         </form>
     </div>
-
     <br>
-
     <main>
-        <h5>Previous Searches</h5>
+        <h5>Featured Searches</h5>
         <div class="row">
-            <div class="col s6">
+            <div class="col s2">
                 <div class="card">
                     <div class="card-image">
                         <img src="assets/images/Batman-Dark-Knight-image.jpeg">
                         <span class="card-title"></span>
                         <div class="card-content">
-                            <p>Christian Bale is the Dark Knight. Heath ledger makes an unforgettable turns in his role
-                                of Joker.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, odio inventore, assumenda culpa nesciunt aut velit doloremque repellendus nihil dolor atque laudantium?</p>
                         </div>
                     </div>
                 </div>
@@ -49,8 +45,7 @@
                         <img src="assets/images/Mulan-poster-image.jpeg">
                         <span class="card-title"></span>
                         <div class="card-content">
-                            <p>Disney's latest animated feature. iainasf;na;kgn ina;fkln;ewklnf;ksdn kjasnfyr uhefb
-                                uuufub.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est, sit distinctio, at in tempora, omnis magni minima eligendi laboriosam maiores explicabo labore ullam cumque.</p>
                         </div>
                     </div>
                 </div>
@@ -61,126 +56,116 @@
                         <img src="assets/images/Joker-poster-image.jpeg">
                         <span class=""></span>
                         <div class="card-content">
-                            <p>Joaquin Phoenix triumphs in his portrayal of the origins of the joker huhfweifuh
-                                fbuweifh.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, debitis! Ratione aliquid dolores minus porro, sunt, perferendis mollitia vitae cum eaque odio officiis!</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col s2">
+            <h5>Channels searched</h5>
+            <div class="col s6">
                 <div class="channelContainer">
-                    <section id="channelSection">
-                        <a target="_blank" href="https://netflix.com"><img class="streamChannel"
-                            src=" assets/images/Netflix-Image.jpeg"></img></a>
-                        <a target="_blank" href="https://www.amazon.com/ref=nav_logo"><img class="streamChannel"
-                            src="assets/images/Amazon-prime.jpeg"></img></a>
-                        <a target="_blank" href="https://disneyplus.com"><img class="streamChannel"
-                            src="assets/images/Disney-Plus image.jpeg"></img></a>
-                        <a target="_blank" href="https://hulu.com"><img class="streamChannel"
-                            src="assets/images/Hulu-image.jpeg"></img></a>
-                        <a target="_blank" href="https://hbomax.com"><img class="streamChannel"
-                            src="assets/images/HBOmax.jpeg"></img></a>
-                        <a target="_blank" href="https://Appletv.com"><img class="streamChannel"
-                            src="assets/images/AppleTVimage.jpeg"></img></a> 
-                    </section>
+                    <!-- <h4>Channels</h4> -->
+                    <div class="card1">
+                        <section id="channelSection">
+                            <div class="card-one">
+                                <a target="_blank" href="https://netflix.com"><img class="stream-channel-one"
+                                        src=" assets/images/Netflix-Image.jpeg"></img></a>
+                            </div>
+                            <div class="card-two">
+                                <a target="_blank" href="https://www.amazon.com/ref=nav_logo"><img class="stream-channel-two"
+                                        src="assets/images/Amazon-prime.jpeg"></img></a>
+                            </div>
+                            <div class="card-three">
+                                <a target="_blank" href="https://disneyplus.com"><img class="stream-channel-three"
+                                        src="assets/images/Disney-Plus image.jpeg"></img></a>
+                            </div>
+                            <div class="card-four">
+                                <a target="_blank" href="https://hulu.com"><img class="stream-channel-four"
+                                        src="assets/images/Hulu-image.jpeg"></img></a>
+                            </div>
+                            <!-- <div class="card-five">
+                                <a target="_blank" href="https://hbomax.com"><img class="stream-channel-five"
+                                        src="assets/images/HBOmax.jpeg"></img></a>
+                            </div>
+                            <div class="card-six">
+                                <a target="_blank" href="https://Appletv.com"><img class="stream-channel-six"
+                                        src="assets/images/AppleTVimage.jpeg"></img></a>
+                            </div> -->
+                        </section>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
 
-<!--Food Search-->
-    <section id="searchFood" class="section section-search teal darken-1 white-text center scrollspy">
+
+
+    </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/script.js"></script>
+    <!-- break up the content to better understand structure  -->
+    <hr>
+
+    <!--Food search section-->
+    <section id="gallery" class="section section-gallery scrollspy">
         <div class="container">
+            <h4 class="center">
+                <span class="teal-text">Food/Movie Photos</span>
+            </h4>
             <div class="row">
-                <h2>Find your favorite restaurant</h2>
-                <div class="col-s12-m6">
-                    <h3 class="Search food"></h3>
-                    <form class="row">
-                        <!-- figure out how to move the placeholder text out of way in search bar -->
-                        <button class="btn col s1 blue accent-4" id="foodSearchButton" style="float:left; display:block; height:46px;" type="submit" name="action"><i class="fa fa-search"
-                            aria-hidden="true"></i></button>
-                        <input type="text" class="white grey-text autocomplete col s10" style="float:left; display:block" id="autocomplete-input" placeholder=" Zipcode">
-                        <button class="btn col s1 blue accent-4" id="clearButton" style="float:left; display:block; height:46px;" type="submit" name="action"><i class="fas fa-times"></i></button>
-                    </form>
+                <div class="col s12 m3">
+                    <img src="./assets/images/paolo-nicolello-RAN9XuZImto-unsplash.jpg" alt="Dogs and chill"
+                        class="materializedboxed responsive-img">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Search Results Sections -->
-
-    <!-- 3 Columns across 1 row for search results -->
-    <div class="container">
-        <!-- Restauarant Details Row -->
-        <div class="row">
-            <div class="col s4">
-                <!-- Restaurant Details 1 -->
-                <h5 class="card-title">Restaurant 1</h5>
-                <p>Name</p>
-                <p class="cardtext">Address/Directions</p>
-                <p class="cardtext">Phone Number</p>
-            </div>
-            <div class="col s4">
-                <!-- Restauarant Details 2 -->
-                <h5 class="card-title">Restaurant 2</h5>
-                <p class="cardtext">Name</p>
-                <p class="cardtext">Address/Directions</p>
-                <p class="cardtext">Phone Number</p>
-            </div>
-            <div class="col s4">
-                <!-- Restauarant Details 3 -->
-                <h5 class="card-title">Restaurant 3</h5>
-                <p class="cardtext">Name</p>
-                <p class="cardtext">Address/Directions</p>
-                <p class="cardtext">Phone Number</p>
+    <!-- Search for food section section id="searchFood-->
+    <section id="searchFood" class="section section-search teal darken-1 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Craving anything?</h3>
+                    <div class="input-field">
+                        <input type="text" class="white grey-text autocomplete" id="autocomplete-input"
+                            placeholder="zipcode">
+                    </div>
+                </div>
             </div>
         </div>
-
-        <!-- Content below Restuarant search selections -->
-        <h4> column s4 </h4>
-        <div class="col s4">
-            <!-- paragraph test 1 -->
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur expedita quis nihil ad sequi id in error soluta dignissimos qui!</p>
-        </div>
-
-        <h4> columns s4 </h4>
-        <div class="col s4">
-            <!--paragraph test 1 -->
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur expedita quis nihil ad sequi id in error soluta dignissimos qui!</p>
-        </div>
-    </div>
-
-
-    
-    <!-- Footer -->
-    <footer class="page-footer">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your
-                    footercontent.</p>
+        <!-- Footer -->
+        <footer class="page-footer">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your
+                        footercontent.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                </ul>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2020 Team Stream
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
             </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2020 Team Stream
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
         <!-- Compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="assets/script.js"></script>
-    <script src="assets/restaurantapi.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+            integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script src="assets/script.js"></script>
 </body>
+
 </html>
