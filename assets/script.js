@@ -75,6 +75,12 @@ $(document).ready(function ()
         searchesDiv.attr("id", "movieSearches");
         searchesDiv.attr("style", "width: 350px; margin: auto;");
 
+        if (array.length <= 0)
+        {
+            searchesDiv.append($("<h4>There are no results</h4>"));
+            searchesDiv.append($("<h4>For this show/movie</h4>"))
+        }
+
         for (var i = 0; i < array.length; i++)
         {
             var movieImg = array[i].imageurl[0];
