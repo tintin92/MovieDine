@@ -83,7 +83,8 @@ $(document).ready(function ()
             var movieImg = array[i].imageurl[0];
             var movieSummary = array[i].synopsis;
             var movieId = array[i].imdbid;
- 
+            var movieTitle = array[i].title;
+
             // Below I will dynamically create elements to append to the page.
             var button = $("<button>");
             button.attr("data-id", movieId);
@@ -112,7 +113,7 @@ $(document).ready(function ()
             cardContentEl.attr("data-id", movieId);
 
             var summaryEl = $("<p>");
-            summaryEl.text(movieSummary);
+            summaryEl.text(movieTitle + ": " + movieSummary);
             summaryEl.attr("data-id", movieId);
             cardContentEl.append(summaryEl);
             cardImageDiv.append(posterEl, cardContentEl);
