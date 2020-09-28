@@ -4,6 +4,7 @@ var previousSearches = [];
 var searchText = "";
 var movieSearchButton = $("#searchButton");
 var movieSearchInput = $("#searchInput");
+var prevSearch = $("#prevSearch");
 
 var backButtonEl = $("<button>");
 backButtonEl.addClass("btn col s1");
@@ -18,6 +19,8 @@ backButtonEl.append(backArrow);
  
 $(document).ready(function ()
 {
+    init();
+
     movieSearchButton.on("click", function (event)
     {
         event.preventDefault();
@@ -151,6 +154,7 @@ $(document).ready(function ()
                 
                 $.ajax(settings).done(function (response) 
                 {
+                    storeSearches(response);
                     $("main").text("");
                     $("main").append(backButtonEl);
                     // Creates a div to hold the movie
@@ -232,17 +236,47 @@ $(document).ready(function ()
             return;
         }
  
+        if (previousSearches.length >= 3)
+        {
+            previousSearches.shift();
+        }
+
         previousSearches.push(searchesText);
         searchesText = "";
  
         storeSearches(searchesText);
-        // renderSearches(); (will uncomment when renderSearches function is completed)
     }
  
     // Will build this when I have the ID's of buttons, div's, etc.
     function renderSearches()
     {
- 
+        for (var i = 0; i < previousSearches.length; i++)
+        {
+            var divCol = $("<div>");
+            divCol.addClass("col s2");
+
+            var divCard = $("<div>");
+            divCard.addClass("card");
+            divCol.append(divCard);
+
+            var divCardImage = $("<div>");
+            divCardImage.addClass("card-image");
+            divCard.append(divCardImage);
+
+            var image = $("<img>");
+            image.attr("src", previousSearches[i].imageurl[0]);
+            divCardImage.append(image);
+
+            var divCardContent = $("<div>");
+            divCardContent.addClass("card-content");
+            divCardImage.append(divCardContent);
+
+            var synopsis = $("<p>");
+            synopsis.text(previousSearches[i].synopsis);
+            divCardContent.append(synopsis);
+
+            prevSearch.prepend(divCol);
+        }
     }
  
     function init()
@@ -254,6 +288,6 @@ $(document).ready(function ()
             previousSearches = storedSearches;
         }
  
-        // renderSearches(); (will uncomment when renderSearches function is completed)
+        renderSearches();
     }
 });
