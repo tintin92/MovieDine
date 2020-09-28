@@ -68,6 +68,7 @@ $(document).ready(function ()
     function buildSearchResults(array)
     {
         $("main").text("");
+        $("main").append($("<br>"));
         var h1El = $("<h1>");
         h1El.text("Showing results for: " + searchText);
         h1El.append($("<br>"));
@@ -156,6 +157,7 @@ $(document).ready(function ()
                 {
                     storeSearches(response);
                     $("main").text("");
+                    $("main").append($("<br>"));
                     $("main").append(backButtonEl);
                     // Creates a div to hold the movie
                     var movieDiv = $("<div>");
