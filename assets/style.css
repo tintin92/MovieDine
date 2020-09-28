@@ -36,6 +36,7 @@
             margin:0px;
             padding:0px;
             background-color: rgb(24, 135, 226);
+            position: relative;
            
 
         }
@@ -59,9 +60,12 @@
         main {
             background-color: rgb(114, 184, 231);
         }
+
         h2 {
             color: white;
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-style: strong;
         }
         h4 {
             color: white;
@@ -177,7 +181,15 @@
            color: #000;
       }
       .nav-wrapper {
-        background-color: #154a86;  
+        background-color: #1919d3;  
         color: rgb(16, 61, 146);
           height: 35%;
       }
+
+
+.page-footer {
+            background-color: #1919d3;
+
+    
+}
+
