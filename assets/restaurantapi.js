@@ -41,9 +41,9 @@ for (i = 0; i < 10; i++) {
 
 //Creating divs for the cards to be put into
     var zipCodeDiv = $("<div>");
-    zipCodeDiv.addClass("");
+    zipCodeDiv.addClass("card-container");
     var zipCodeCardDiv = $("<div>");
-    zipCodeCardDiv.addClass("");
+    zipCodeCardDiv.addClass("card");
 
 //Creating temporary variables for the application
     var name = response.result.data[i].restaurant_name;
@@ -58,11 +58,16 @@ for (i = 0; i < 10; i++) {
     // console.log(price);
     // console.log(foodType);
 
-    var nameOutput = $("<h5>").text("Restaurant Name: " + name);
+    var nameOutput = $("<h5>").text(name);
+    nameOutput.addClass("card-title");
     var addressOut = $("<p>").text("Address: " + address);
+    addressOut.addClass("cart-text");
     var phoneOut = $("<p>").text("Phone Number: " + phone);
+    phoneOut.addClass("cart-text");
     var priceOut = $("<p>").text("Price Level: " + price);
+    priceOut.addClass("cart-text");
     var foodTypeOut = $("<p>").text("Food Style: " + foodType);
+    foodTypeOut.addClass("cart-text");
 
 //Append new outputs to created divs
 
@@ -73,6 +78,8 @@ for (i = 0; i < 10; i++) {
     zipCodeDiv.append(foodTypeOut);
 
     zipCodeCardDiv.append(zipCodeDiv);
+
+    $("#foodSearchResults").prepend(zipCodeCardDiv);
 
 }
 })}})
