@@ -2,7 +2,7 @@
         .header{
             width:100%;
             height:80px;
-            background-color:#1919d3;
+            background-color: #0d47a1;
             color: rgb(247, 243, 238);
             text-align: justify;
         }
@@ -10,6 +10,7 @@
         {
             float: right;
             display: block;
+            background-color: #0d47a1;
         }
         #movieSearchForm
         {
@@ -19,7 +20,7 @@
         }
         .movieSearchBar {
             max-width: 100%;
-            background-color: mediumpurple;
+            background-color #0d47a1;
             height: 70px;
             text-align: center;
             margin-left: autogit;
@@ -35,16 +36,16 @@
          body {
             margin:0px;
             padding:0px;
-            background-color: rgb(24, 135, 226);
+            background-color: #0d47a1;
             position: relative;
            
 
         }
          h1 {
-            font-family: 'Times New Roman', Times, serifori;
+           
             color:#fbfafd;
             font-size:50px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             text-align:left;
             margin-top:0px;
             float:left;
@@ -58,7 +59,7 @@
             padding-right:14px;
         }
         main {
-            background-color: rgb(114, 184, 231);
+            background-color: #1e88e5 );
         }
 
         h2 {
@@ -181,7 +182,7 @@
            color: #000;
       }
       .nav-wrapper {
-        background-color: #1919d3;  
+        background-color: #1e88e5 ;  
         color: rgb(16, 61, 146);
           height: 35%;
       }
