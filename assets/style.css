@@ -2,6 +2,7 @@
         .header{
             width:100%;
             height:100px;
+            /* background-color: #303f9f; */
             background-color: #0d47a1;
             color: rgb(247, 243, 238);
             text-align: justify;
@@ -10,7 +11,9 @@
         {
             float: right;
             display: block;
+            /* background-color: #303f9f; */
             background-color: #0d47a1;
+            size: 5px;
         }
         #movieSearchForm
         {
@@ -20,26 +23,43 @@
         }
         .movieSearchBar {
             max-width: 100%;
+            /* background-color: #303f9f; */
             background-color: #0d47a1;
             height: 70px;
             text-align: center;
             margin-left: autogit;
             
         }
-         .fas {
-             display: none;
+        foodSearchButton {
+            size: 5px;
+        }
+        .nav-wrapper {
+            background-color: #bbdefb;
+          background-color: ;
+          color: #90caf9;
+            height: 25%;
+        }
+         .fa {
+             size: 20%;
          }
          .fa-search {
              display: none;
+    }
+        logo {
+        size: 50px;
+    }
+        .fa-ticket-alt {
+            size: 50%;
 
     }
+        i {
+            size: 50%;
+        }
          body {
             margin:0px;
             padding:0px;
             background-color: #0d47a1;
             position: relative;
-           
-
         }
          h1 {
            
@@ -54,12 +74,13 @@
             padding-left:9px;
         }
         form {
-            color: blue;
+            color: #64b5f6;
             float: inline-end ;line-height:52px;
             padding-right:14px;
         }
         main {
-            background-color: #1e88e5;
+            background-color: #64b5f6;
+        
         }
 
         h2 {
@@ -70,18 +91,18 @@
         }
         h4 {
             color: white;
-            font-family: fantasy;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         h5 {
             color: white;
-            font-family: fantasy;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
         .input {
             color: black;
         }
     
-        .channelContainer{
-            background-color: #0d47a1;
+        /* .channelContainer{
+            background-color: #303f9f;
             width: 220px;
             height: 500px;
             padding-top: 5%;
@@ -90,7 +111,7 @@
             margin-right: 50px;
             align-content: right;
             border: black;
-        }
+        } */
         /* .movieSearchBar {
             size: 100px;
             color:  rgb(235, 219, 219);
@@ -141,7 +162,7 @@
         } */
       
          .card {
-             background-color: #4d8fad;
+             background-color: #bbdefb;
             justify-content: flex-end;
             width:  100%;
             height: 300%;   
@@ -181,19 +202,16 @@
            width: 250px;
            color: #000;
       }
-      .nav-wrapper {
-        background-color: #0d47a1;  
-        color: rgb(16, 61, 146);
-          height: 25%;
-      }
 
       .container {
           background-color: #0d47a1;
+          position: center;
 
       }
 
 
 .page-footer {
-            background-color:#0d47a1;    
+    background-color: #0d47a1;
+            /* background-color: #303f9f;     */
 }
 
